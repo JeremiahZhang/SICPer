@@ -18,6 +18,7 @@ Have fun!
 > You can learn anything.
 
 ```
-2018-09-26
+Started: 2018-09-15  
+Created: 2018-09-26 
 Jeremy
 ```
