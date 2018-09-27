@@ -13,6 +13,12 @@ Have fun!
 - Ch4 Metalinguistic Abstraction
 - Ch5 Computing with Register Machines 
 
+## Sources
+
+- [Structure and Interpretation of Computer Programs | Electrical Engineering and Computer Science | MIT OpenCourseWare](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-001-structure-and-interpretation-of-computer-programs-spring-2005/)
+- [Structure and Interpretation of Computer Programs](https://mitpress.mit.edu/sites/default/files/sicp/full-text/book/book.html)
+- [SICP Web Site](https://mitpress.mit.edu/sites/default/files/sicp/index.html)
+
 ## Log
 
 > You can learn anything.
