@@ -66,5 +66,5 @@ The syntax of Lisp is very simple:
 > the evaluation rule for expressions(a simple general rule + specialized rules for a small number of special forms)
 
 ```
-2019-03-16 review
+2019-03-16 review(intro 1-5)
 ```
