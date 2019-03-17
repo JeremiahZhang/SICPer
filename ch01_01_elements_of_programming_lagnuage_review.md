@@ -57,9 +57,33 @@ Talk about:
         - `(+ 36 100)`
         - `136`
     - Process above is called the *substitution model*
+        - Just help us think about procedure application,
+        - Not about how the interpreter really works.
+    - *Normal-order evaluation*
+    - *Applicative-order evaluation*
+        - Lisp uses applicative-order evaluation.
 - 6 conditional expressions and predicates
+    - *case analysis*: conditional
+        - `cond` : `(cond (<predicate> <expression>) ... (<p> <e>))`
+        - `if`:  `(if <predicate> <consequent> <alternative>)`
+        - logical operations:
+            - `(and <e_1> ... <e_n>)`: special form
+            - `(or <e_1> ... <e_n>)`: special form
+            - `(not <e>)`: ordinary procedure
+
+```
+(cond (<p_1> <e_1>)
+      (<p_2> <e_2>)
+      ...
+      (<p_n> <e_n>))
+```
+
 - 7 Square Roots by Newton's Method
+    - `y^2 = x, [guess+(x/guess)]/2`
 - 8 Procedures as Black-Box Abstractions
+    - *recursive*
+    - *local names*
+    - *bound variable*
 
 The syntax of Lisp is very simple:
 
@@ -67,4 +91,5 @@ The syntax of Lisp is very simple:
 
 ```
 2019-03-16 review(intro 1-5)
+2019-03-17 review(intro 6-8)
 ```
