@@ -8,6 +8,7 @@ Have fun!
 
 - Ch1 Building Abstractions with Procedures.
     - [1.1 The Elements of Programming](http://note.youdao.com/noteshare?id=86954a6b0433687c94e89d77df74799a&sub=78F45307D33B482798B35464C45F1B0D)
+        - [Review](https://github.com/JeremiahZhang/SICPer/blob/master/ch01_01_elements_of_programming_lagnuage_review.md)
 - Ch2 Building Abstractions with Data
 - Ch3 Modularity, Objects, and State
 - Ch4 Metalinguistic Abstraction
