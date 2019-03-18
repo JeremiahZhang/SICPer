@@ -18,3 +18,11 @@
                        (+ 1 counter) 
                        n)))
     (fact-iter 1 1 n))
+
+(define (fact-sim n)
+    (define (iter product counter)
+        (if (> counter n)
+            product
+            (iter (* product counter)
+                  (+ counter 1))))
+    (iter 1 1))
