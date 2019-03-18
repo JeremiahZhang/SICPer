@@ -4,6 +4,12 @@
         1
         (* n (factorial (- n 1)))))
 
+(define fact
+    (lambda (n)
+        (if (= n 1)
+            1
+            (* n (fact (- n 1))))))
+
 (define (factorial-two n)
     (define (fact-iter product counter n)
         (if (> counter n)
