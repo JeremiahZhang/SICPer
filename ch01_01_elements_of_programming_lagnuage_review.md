@@ -16,6 +16,8 @@ Talk about:
 
 - 1 expressions
     - number: `520.1314`
+    - strings: `this is a string`
+    - Booleans: `#t`, `#f`
     - combinations: `(+ 520 1314)`
         - *prefix notation*: 前缀表示法
         - operator: `+` 
