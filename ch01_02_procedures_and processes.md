@@ -5,9 +5,11 @@
 编程与绘图类比，编程也是一种艺术呀。
 
 - 1.linear recursion and iteration
-    - *linear recursive process*
-    - *linear iterative process*
+    - *linear recursive process*: what + how
+    - *linear iterative process*: what + how
 - 2.tree recursion
+    - 零钱计算算法
+    - powerful for structured data
 - 3.order of growth
 - 4.exponentiation
 - 5.greatest common divisors
@@ -16,3 +18,7 @@
 procedure & process:
 
 > One reason that the distinction between process and procedure may be confusing is that most implementations of common languages (including Ada, Pascal, and C) are designed in such a way that the interpretation of any recursive procedure consumes an amount of memory that grows with the number of procedure calls, even when the process described is, in principle, iterative. As a consequence, these languages can describe iterative processes only by resorting to special-purpose ''looping constructs'' such as do, repeat, until, for, and while. The implementation of Scheme we shall consider in chapter 5 does not share this defect. It will execute an iterative process in constant space, even if the iterative process is described by a recursive procedure. An implementation with this property is called tail-recursive. With a tail-recursive implementation, iteration can be expressed using the ordinary procedure call mechanism, so that special iteration constructs are useful only as syntactic sugar.
+
+tree recursive
+
+> One should not conclude from this that tree-recursive processes are useless. When we consider processes that operate on hierarchically structured data rather than numbers, we will find that tree recursion is a natural and powerful tool.
