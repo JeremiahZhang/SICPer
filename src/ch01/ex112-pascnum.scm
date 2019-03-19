@@ -1,11 +1,13 @@
 ;;;;Exercise 1.12 in ch01.02
 
-(define (pascnum counter n)
-    (if (or (= n (accum (row counter n))) 
-            (= n (+ 1 (accum (- (row counter n) 1)))))
-        1
-        (+ (pascnum counter (- n (row counter n))) 
-           (pascnum counter (+ 1 (- n (row counter n)))))))
+(define (pascal n)
+    (define (pascnum counter n)
+        (if (or (= n (accum (row counter n))) 
+                (= n (+ 1 (accum (- (row counter n) 1)))))
+            1
+            (+ (pascnum counter (- n (row counter n))) 
+               (pascnum counter (+ 1 (- n (row counter n)))))))
+    (pascnum 1 n))
 
 (define (row counter n)
     (cond ((= counter n)
