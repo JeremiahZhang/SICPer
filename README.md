@@ -10,6 +10,7 @@ Have fun!
     - [1.1 The Elements of Programming](http://note.youdao.com/noteshare?id=86954a6b0433687c94e89d77df74799a&sub=78F45307D33B482798B35464C45F1B0D)
         - [Review](https://github.com/JeremiahZhang/SICPer/blob/master/ch01_01_elements_of_programming_lagnuage_review.md)
     - [1.2 Procedures and the Processes They Generate](http://note.youdao.com/noteshare?id=7b71c440705ce93d55ad5f213297805b&sub=4757CE80852440189AEFAF4FAB7AEA07)
+        - [Review](https://github.com/JeremiahZhang/SICPer/blob/master/ch01_02_procedures_and%20processes.md)
 - Ch2 Building Abstractions with Data
 - Ch3 Modularity, Objects, and State
 - Ch4 Metalinguistic Abstraction
