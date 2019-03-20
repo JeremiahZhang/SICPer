@@ -10,6 +10,7 @@
 - 2.tree recursion
     - 零钱计算算法
     - powerful for structured data
+    - 斐波那契数列：黄金分割比例
 - 3.order of growth
 - 4.exponentiation
 - 5.greatest common divisors
