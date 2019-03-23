@@ -46,18 +46,12 @@
 ; b^n = (b^2)^(n/2) , if n/2 is even, n为4的倍数
 ; b^n = (b^2)^(n/2-1)*(b^2), if n/2 is odd, n非4倍的整数
 
-(define (o-expt b n)
-    (cond ((= n 0) 1)
-          ((= n 1) b)
-          ((even? (/ n 2)) 
-            (fast-expt (square b) (/ n 2)))
-          ((odd? (/n 2))
-            (* (square b) (fast-expt (square b)
-                (- (/ n 2) 1))))
-          (else xxx)
-        )
+(define (expt-exe b n)
+    (anoexpt b n 1))
 
-(define (square b) (* b b))
+(define (anoexpt b n a)
+    (cond ((= n 0) a)
+          ((even? n) (anoexpt (square b) (/ n 2) a))
+          (else (anoexpt b (- n 1) (* a b))))
+    )
 
-(defien (odd? n)
-    (not (= (remainder n 2) 0)))
