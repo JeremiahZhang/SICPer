@@ -1,4 +1,4 @@
-;;;;ex1.16
+;;;;ex1.16 exponention
 
 (define (expt-exe b n)
     (anoexpt b n 1))
