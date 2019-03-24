@@ -62,7 +62,9 @@ Talk about:
         - Just help us think about procedure application,
         - Not about how the interpreter really works.
     - *Normal-order evaluation*
+        - `fully expand and then reduce`: 先完全展开, 再带入
     - *Applicative-order evaluation*
+        - `evaluate the argument and then apply`
         - Lisp uses applicative-order evaluation.
 - 6 conditional expressions and predicates
     - *case analysis*: conditional
