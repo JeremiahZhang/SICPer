@@ -20,6 +20,7 @@
         - `GCD(a,b)=GCD(b,r)`, `r`是(a/b)的余数
         - `GCD(206,40)=GCD(40,6)=GCD(6,4)=GCD(4,2)=GCD(2,0)=2`
     - *Euclid's Algorithm*
+    - **Lamé's Theorem** 拉姆定理
 - 6.example:testing for primality
 
 **procedure & process:**
