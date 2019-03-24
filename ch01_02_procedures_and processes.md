@@ -12,8 +12,14 @@
     - powerful for structured data
     - 斐波那契数列：黄金分割比例
 - 3.order of growth
+    - logarithm(n)
 - 4.exponentiation
-- 5.greatest common divisors
+    - logarithm 步数
+- 5.greatest common divisors(GCD)
+    - 最大公约数算法
+        - `GCD(a,b)=GCD(b,r)`, `r`是(a/b)的余数
+        - `GCD(206,40)=GCD(40,6)=GCD(6,4)=GCD(4,2)=GCD(2,0)=2`
+    - *Euclid's Algorithm*
 - 6.example:testing for primality
 
 **procedure & process:**
